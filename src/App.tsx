@@ -16,6 +16,8 @@ function DateTime(props: Props) {
 const DateTimePretty = (Component: React.ComponentType) => {
     
     return class extends React.Component {
+
+        static displayName = 'chg_date_view';
         
         changeDateView() {
 
